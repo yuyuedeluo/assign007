@@ -26,7 +26,7 @@ string getColorCursorCode(int color) {
 }
 
 void View::draw(const Board& board, const Cursor& cursor, int level, int score) {
-    cout << "Level: " << level << "    Score: " << score << endl;
+    cout << "Level: " << level << endl;
     cout << "Target             Your Board" << endl;
     cout << "+-----+            +-----+" << endl;
 
