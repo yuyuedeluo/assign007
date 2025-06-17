@@ -94,8 +94,8 @@ src/
 ## To Compile
 
 ```bash
-g++ src/*.cpp -o game
-./game
+g++ src/*.cpp -o game.exe
+./game.exe
 ```
 
 ---
