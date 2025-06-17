@@ -57,7 +57,7 @@ This is a console-based pixel art mimic game implemented in C++. The player is s
 ## Example Screenshot
 
 ```
-Level: 3    Score: 2
+Level: 3 
 Target             Your Board
 +-----+            +-----+
 |██   |            |██   |
@@ -66,7 +66,10 @@ Target             Your Board
 |    |             | X   |
 |    |             |     |
 +-----+            +-----+
-[F] Change brush color  [C] Submit  [Q] Quit
+[WASD] Move  [E] Paint
+[Space] Erase
+[F] Change brush color
+[C] Submit   [R] Reset   [Q] Quit
 ```
 
 ---
@@ -95,7 +98,7 @@ src/
 
 ```bash
 g++ src/*.cpp -o game.exe
-./game.exe
+.\game.exe
 ```
 
 ---
